@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(91, 41, 41);
+}
+
+.box{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+.result{
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    color: black;
+}
+

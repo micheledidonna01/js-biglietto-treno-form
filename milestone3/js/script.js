@@ -80,6 +80,7 @@ function calcTicket(event) {
 
     //form contentente il risultato
     let result = document.querySelector('.result');
+    result.innerText = "";
 
     //aggiungo una classe al div result
     result.classList.add('box');
@@ -111,8 +112,8 @@ function calcTicket(event) {
     divResult.classList.add('col-4', 'flex-nowrap', 'text-left', 'align-middle', 'p-2');
 
     divPasseggero.classList.add('d-flex', 'col-3', 'flex-wrap', 'p-2');
-    nomePasseggero.classList.add('text-center', 'p-2', 'd-block');
-    pPassegero.classList.add('d-block');
+    nomePasseggero.classList.add('text-center', 'p-2', 'd-block', 'col-12');
+    pPassegero.classList.add('d-block', 'col-12');
     
     
 
